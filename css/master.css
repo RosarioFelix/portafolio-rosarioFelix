@@ -84,11 +84,11 @@ body{
     margin-left: -15px;
   }
 }
-.p-top{
+.pt{
   padding-top: 55%;
 }
 @media screen and (min-width:768px) {
-.p-top{
+.pt{
   padding-top: 25%;
 }
 }
