@@ -89,7 +89,7 @@ body{
 }
 @media screen and (min-width:768px) {
 .p-top{
-  padding-top: 25%
+  padding-top: 25%;
 }
 }
 h1{
