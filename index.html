@@ -6,30 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Athiti:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="icons/style.css">
   <title>Document</title>
 </head>
 <body>
-  <nav class = "navbar navbar-default navbar-fixed-top" id ="navbar-example2">
+  <nav class = "navbar navbar-default navbar-fixed-top" id ="navbar-example">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button  class="collapsed navbar-toggle"type="button" data-toggle ="collapse" data-target = ".bs-example-js-navbar-scrollspy" aria-expanded="true">
+        <button  class="collapsed navbar-toggle" type="button" data-toggle ="collapse" data-target = ".bs-example-js-navbar-scrollspy">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="navbar-collapse collapse bs-example-js-navbar-scrollspy " aria-expanded ="true">
+      <div class=" collapse navbar-collapse bs-example-js-navbar-scrollspy ">
         <ul class="nav navbar-nav navbar-right">
-          <li class="">
+          <li>
             <a href="#about">Sobre Mí</a>
           </li>
-          <li  class="">
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
             <a href="#portafolio">Portafolio</a>
           </li>
-          <li class="">
+          <li>
             <a href="#contacto">Contactame</a>
           </li>
         </ul>
@@ -37,11 +40,11 @@
     </div>
   </nav>
   <div class="first-section">
-    <div class="overlay">
       <div class="container-fluid initial">
         <div class="row">
           <div class="col-sm-12 col-md-12">
             <div class="bg-img text-center">
+              <div class="overlay">
               <div class="pt">
                 <p class="text-center tx-40">ROSARIO FELIX</p>
                 <button type="button" class="btn btn-pink" name="button">UX DESINGNER</button>
@@ -52,30 +55,165 @@
       </div>
     </div>
    </div>
-   <div class="scrollspy-example" data-spy="scroll" data-target="#navbar-example2" data-offset ="0">
+   <div class="scrollspy-example" data-spy="scroll" data-target="#navbar-example" data-offset ="0">
        <div class="second-section" id ="about">
         <div class="container">
           <div class="row row-without">
             <div class="col-xs-12 visible-xs">
-              <img src="img/Rosario_Felix_01.jpg" alt="RosariFelix" class="img-rounded">
-              <h1>Sobre Mí</h1>
+              <img src="img/rosario.jpg" alt="RosariFelix" class="img-rounded">
+              <h1 class="text-center">Sobre Mí</h1>
               <p class="text-justify">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
                 la programación , el diseño y la investigación. Excelente con la metodología agile, trabajando
                 en equipo, autodidacta, hábil para resolver problemas y apasionada en lo que hace. Le encantan
                 los desafíos , siempre va buscando aprender más y aportar mucho tanto en lo profesional como personal.</p>
+                <div class ="text-center">
+                  <h2 class="tx-titulos">Premios</h2>
+                  <img src="img/best_squad.png" alt="best-squad">
+                  <img src="img/ROCKING.png" alt="rocking">
+                </div>
             </div>
             <div class="col-sm-4 hidden-xs">
-              <img src="img/Rosario_Felix_01.jpg" alt="RosariFelix" class="img-rounded">
+              <img src="img/rosario.jpg" alt="RosariFelix" class="img-rounded">
             </div>
             <div class="col-sm-8 hidden-xs">
-              <h1>Sobre Mí</h1>
-              <p class="text-justify">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
+              <h1 class="text-center tx-titulos">Sobre Mí</h1>
+              <p class="text-justify tx-20">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
                   la programación , el diseño y la investigación. Excelente con la metodología agile, trabajando
                   en equipo, autodidacta, hábil para resolver problemas y apasionada en lo que hace. Le encantan
                   los desafíos , siempre va buscando aprender más y aportar mucho tanto en lo profesional como personal.</p>
+                  <div class ="text-center">
+                    <h2 class="tx-titulos">Premios</h2>
+                    <img src="img/best_squad.png" alt="best-squad">
+                    <img src="img/ROCKING.png" alt="rocking">
+                  </div>
             </div>
           </div>
         </div>
+      <div class="container mt-5">
+        <div class="row center-block">
+          <div class="col-sm-offset-2 col-sm-2 ">
+            <div class="box">
+              <i class="icon-headphones">
+              <p class="tx-20">MUSIC LOVER</p>
+              </i>
+            </div>
+          </div>
+          <div class=" col-sm-2 mt-4">
+            <div class="box">
+              <i class=" icon-mobile">
+              <p class="tx-20">TECH</p>
+              </i>
+            </div>
+           </div>
+           <div class="col-sm-2  mt-4">
+            <div class=" box">
+              <i class=" icon-search">
+              <p class="tx-20">AUTODIDACT</p>
+              </i>
+            </div>
+           </div>
+           <div class="col-sm-2 mt-4">
+             <div class=" box">
+                <i class="icon-graduation-cap">
+                <p class="tx-20 text-center">EASY LEARNING</p>
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section  id ="skills" class="bg-claro">
+          <div class="container mt-5">
+            <div class="row row-without">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <h1 class="text-center tx-titulos mt-5">SKILLS</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="row center-block text-center">
+              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
+                <div class="box-skill" >
+                  <i class="icon-brand8">
+                    <h3>GITHUB</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill"  >
+                  <i class="icon-brand7">
+                    <h3>GIT</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill" >
+                  <i class="icon-brand9"><h3>HTML</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill" >
+                  <i class="icon-brand4">
+                    <h3>CSS3</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
+                <div class="box-skill">
+                  <i class="icon-brand2">
+                    <h3>BOOTSTRAP</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill" >
+                  <i class="icon-brand10">
+                    <h3>JS</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill" >
+                  <i class="icon-brand14">
+                    <h3>TRELLO</h3>
+                  </i>
+                </div>
+              </div>
+              <div class= "col-xs-6 col-sm-6 col-md-2" >
+                <div class= "box-skill">
+                  <i class="icon-brand12">
+                    <h3>SLACK</h3>
+                  </i>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
+                <div  class="box-skill"  >
+                  <i class="icon-map">
+                    <h3>APIS</h3>
+                  </i>
+                </div>
+              </div>
+              <div  class="col-xs-6 col-sm-6 col-md-2">
+                <div  class="box-skill">
+                  <h1>JQ</h1>
+                  <h3>JQUERY</h3>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-2">
+                <div class="box-skill">
+                  <i class="icon-user-o">
+                    <h3>UX</h3>
+                  </i>
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+        </section>
+      </div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12 col-md-12">
@@ -92,10 +230,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
-
         </div>
       </div>
-    </div>
   <script type="text/javascript" src="js/vendor/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
