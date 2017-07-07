@@ -10,8 +10,8 @@ body{
   flex-direction: column;
 }
 .navbar-default{
-  background-color:#796465;
-  border-color: #796465;
+  background-color:#630A10;
+  border-color:#630A10;
 }
 @media(min-width:768px) {
   .navbar-nav{
@@ -30,6 +30,10 @@ body{
 .navbar-default .navbar-nav>li>a{
   color: #fff;
   font-size:18px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+  font-size: 20px;
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{
   background-color: #796465;
@@ -95,7 +99,7 @@ body{
 }
 
 h1{
-  color: #BB5A5A;
+  color: #911F27;
   font-weight: bold;
 }
 .tx-20{
@@ -117,11 +121,11 @@ h1{
   color: #CB8589;
 }
 .btn-pink{
-  background-color: #796465;
+  background-color: #630A10;
   color: #FFF;
 }
 .btn:hover{
-  color:#Fff;
+  color:#fff;
 }
 .mt-5{
   margin-top: 5%;
@@ -134,23 +138,22 @@ h1{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #CB8589;
+  border: 2px solid #911F27;
   width: 100%;
   height: 150px;
-  background-color: #CB8589;
+  background-color: #911F27;
   color: #FFF;
 }
 .box:hover{
-  color: #CB8589;
+  color: #911F27;
   background-color:#fff;
+  border-radius: 50%;
 }
 
-.bg-claro{
-  background-color: #DDE8B9;
-}
+/*bg-claro{
+  background-color: #FCF0C8;
+}*/
 .box-skill{
-  border: 2px solid #DDE8B9;
-  background-color: #DDE8B9;
   width: 100%;
   height: 120px;
   display: flex;
@@ -159,10 +162,9 @@ h1{
   margin-bottom: 20px;
 }
 .box-skill:hover{
-  background-color:rgba(0,0,0,0.2);
+  background-color:rgba(0,0,0,0.4);
   border-radius: 30px;
-  color: #FFF;;
-  cursor: pointer;
+  color: #911F27;
   font-size: 50px;
 }
 @media screen and (min-width:768px) {
