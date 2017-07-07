@@ -36,7 +36,7 @@ body{
   font-size: 20px;
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{
-  background-color: #796465;
+  background-color: #630A10;
 }
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #fff;
@@ -115,7 +115,7 @@ h1{
 .tx-40{
   font-size: 65px;
   font-weight: bold;
-  color: #DDE8B9;
+  color: #FCF0C8;
 }
 .tx-titulos{
   color: #CB8589;
