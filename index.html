@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="css/master.css">
   <link href="https://fonts.googleapis.com/css?family=Athiti:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="icons/style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="img/rf-favicon.ico" rel="icon" type="image/x-icon" />
+  <title>Rosario Félix | Laboratoria</title>
 </head>
 <body>
   <nav class = "navbar navbar-default navbar-fixed-top" id ="navbar-example">
@@ -21,19 +23,19 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class=" collapse navbar-collapse bs-example-js-navbar-scrollspy ">
-        <ul class="nav navbar-nav navbar-right">
+      <div class=" collapse navbar-collapse bs-example-js-navbar-scrollspy " id="nav-header">
+        <ul class="nav navbar-nav navbar-right" id="nav-background">
           <li>
-            <a href="#about">Sobre Mí</a>
+            <a href="#about" class="enlace">Sobre Mí</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills" class="enlace">Habilidades</a>
           </li>
           <li>
-            <a href="#portafolio">Portafolio</a>
+            <a href="#portafolio" class="enlace">Portafolio</a>
           </li>
           <li>
-            <a href="#contacto">Contactame</a>
+            <a href="#contacto" class="enlace">Contáctame</a>
           </li>
         </ul>
       </div>
@@ -46,7 +48,7 @@
             <div class="bg-img text-center">
               <div class="overlay">
               <div class="pt">
-                <p class="text-center tx-40">ROSARIO FELIX</p>
+                <p class="text-center tx-65">ROSARIO FELIX</p>
                 <button type="button" class="btn btn-red" name="button">UX DESINGNER</button>
               </div>
             </div>
@@ -60,180 +62,259 @@
         <div class="container">
           <div class="row row-without">
             <div class="col-xs-12 visible-xs">
-              <img src="img/ros.jpg" alt="RosariFelix" class="img-rounded">
-              <h1 class="text-center">Sobre Mí</h1>
-              <p class="text-justify">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
+                <img src="img/ros.jpg" alt="RosariFelix" class="img-rounded">
+                <h1 class="text-center">Sobre Mí</h1>
+                <p class="text-justify">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
                 la programación , el diseño y la investigación. Excelente con la metodología agile, trabajando
                 en equipo, autodidacta, hábil para resolver problemas y apasionada en lo que hace. Le encantan
                 los desafíos , siempre va buscando aprender más y aportar mucho tanto en lo profesional como personal.</p>
-                <div class ="text-center">
-                  <h1 class="">Premios <span class="icon-trophy"></span></h1>
-                  <img src="img/best_squad.png" alt="best-squad">
-                  <img src="img/ROCKING.png" alt="rocking">
+                  <div class ="text-center">
+                    <h1 class="">Premios <span class="icon-trophy"></span></h1>
+                  <div class="row">
+                  <div class="col-xs-12">
+                    <img src="img/best_squad.png" alt="best-squad">
+                    <p>Es el squad que acumula más puntos y que cumplió el objetivo</p>
+                  </div>
+                  <div class="col-xs-12">
+                    <img src="img/ROCKING.png" alt="rocking">
+                    <p>Es la alumna que mostró el mayor progreso de un sprint a otro</p>
+                  </div>
                 </div>
+              </div>
             </div>
             <div class="col-sm-4 hidden-xs">
               <img src="img/ros.jpg" alt="RosariFelix" class="img-rounded">
             </div>
             <div class="col-sm-8 hidden-xs">
-              <h1 class="text-center">Sobre Mí</h1>
+              <h1 class="text-center">SOBRE MÍ</h1>
               <p class="text-justify tx-20">Estudiante de desarrollo web en Laboratoria con muchas ambiciones. Intereses en la tecnología ,
                   la programación , el diseño y la investigación. Excelente con la metodología agile, trabajando
                   en equipo, autodidacta, hábil para resolver problemas y apasionada en lo que hace. Le encantan
                   los desafíos , siempre va buscando aprender más y aportar mucho tanto en lo profesional como personal.</p>
                   <div class ="text-center">
-                    <h1 class="">Premios <span class="icon-trophy"></span></h1>
-                    <img src="img/best_squad.png" alt="best-squad">
-                    <img src="img/ROCKING.png" alt="rocking">
+                    <h1 class="">Premios</h1>
+                  <div class="row">
+                    <div class="col-sm-5 col-sm-offset-1 col-md-5">
+                      <a href="#demo"  data-toggle="collapse" ><img id ="img-squad" src="img/best_squad.png" alt="best-squad" width="100"></a>
+                    <div id="demo" class=" text-justify collapse">
+                        Es el squad que acumula más puntos y que cumplió el objetivo del 80%.
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <a href="#demo2"  data-toggle="collapse"><img src="img/ROCKING.png" alt="rocking" width="100"></a>
+                    <div id ="demo2" class="text-justify collapse">
+                      Es la alumna que mostró el mayor progreso de un sprint a otro
                   </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
       <div class="container mt-5">
         <div class="row center-block">
-          <div class="col-sm-offset-2 col-sm-2 ">
+          <div class=" col-sm-3 col-md-3 ">
             <div class="box">
               <i class="icon-headphones">
               <p class="tx-20">MUSIC LOVER</p>
               </i>
             </div>
           </div>
-          <div class=" col-sm-2 mt-4">
+          <div class=" col-sm-3 col-md-3 mt-4">
             <div class="box">
-              <i class=" icon-mobile">
+              <i class=" icon-phone">
               <p class="tx-20">TECH</p>
               </i>
             </div>
            </div>
-           <div class="col-sm-2  mt-4">
+           <div class="col-sm-3 col-md-3 mt-4">
             <div class=" box">
-              <i class=" icon-search">
+              <i class=" icon-books">
               <p class="tx-20">AUTODIDACT</p>
               </i>
             </div>
            </div>
-           <div class="col-sm-2 mt-4">
+           <div class="col-sm-3 col-md-3 mt-4">
              <div class=" box">
-                <i class="icon-graduation-cap">
-                <p class="tx-20 text-center">EASY LEARNING</p>
+              <i class="icon-graduation-cap">
+              <p class="tx-20 text-center">EASY LEARNING</p>
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section  id ="skills" class="bg-claro">
+        <div class="container mt-5">
+          <div class="row row-without">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <h1 class="text-center mt-5">HABILIDADES TECNICAS</h1>
+              <p class="text-justify"></p>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row center-block text-center">
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill" >
+                <i class="icon-brand5 animated tada">
+                <h3>Github</h3>
                 </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill"  >
+                <i class="icon-git animated  tada">
+                <h3>GIT</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill" >
+                <i class="icon-html-five animated tada"><h3>HTML</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill" >
+                <i class="icon-css3 animated  tada">
+                <h3>CSS3</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6  col-md-4">
+              <div class="box-skill">
+                <i class="icon-brand2 animated  tada">
+                <h3>Bootstrap</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill" >
+                <i class="animated tada cuarenta"> JS
+                <h3>Javascript</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div class="box-skill" >
+                <i class="icon icon-trello animated tada">
+                <h3>TRELLO</h3>
+                </i>
+              </div>
+            </div>
+            <div class= "col-xs-6 col-sm-6 col-md-4" >
+              <div class= "box-skill">
+                <i class="icon-brand12 animated tada">
+                <h3>SLACK</h3>
+                </i>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4">
+              <div  class="box-skill"  >
+                <i class="icon-map2 animated tada">
+                <h3>APIS</h3>
+                </i>
+              </div>
+            </div>
+            <div  class="col-xs-6 col-sm-6 col-md-4">
+              <div  class="box-skill">
+                <i class="animated tada cuarenta">JQ <h3>JQUERY</h3></i>
+              </div>
+              </div>
+                <div class="col-xs-6 col-sm-6 col-md-4">
+                  <div class="box-skill">
+                    <i class="icon-user animated tada">
+                    <h3>UX</h3>
+                    </i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <section  id ="skills" class="bg-claro">
-          <div class="container mt-5">
-            <div class="row row-without">
+      </section>
+      <section id="portafolio">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 pt-6">
+              <h1 class="text-center ">PORTAFOLIO</h1>
+              <p class="text-center tx-22">Mis proyectos realizados en Laboratoria:</p>
+            </div>
+            <div class="container">
+              <div class="row center-block">
+                <div class="col-xs-12 col-sm-4 col-md-4 ">
+                  <div class="container-proyect center-block">
+                    <img src="img/gas.jpg" alt="gasfinder" class="image">
+                    <div class="overlay-proyect">
+                      <div class="text"> <a target="_blank" href="https://rosariofelix.github.io/gasfinder/" type="button" class="btn btn-danger">Demo</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="container-proyect center-block">
+                    <img src="img/poke.jpg" alt="pokemon" class="image">
+                    <div class="overlay-proyect">
+                      <div class="text"> <a target="_blank" href="https://rosariofelix.github.io/pokeapi/" type="button" class="btn btn-danger">Demo</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="container-proyect center-block">
+                    <img src="img/google.png" alt="google-api" class="image">
+                    <div class="overlay-proyect">
+                      <div class="text"> <a target="_blank" href="https://rosariofelix.github.io/pokeapi/" type="button" class="btn btn-danger">Demo</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="container-proyect center-block">
+                    <img src="img/facebook.png" alt="Facebook-api" class="image animated rubberBand">
+                    <div class="overlay-proyect">
+                      <div class="text"> <a target="_blank" href="https://rosariofelix.github.io/login-lecc42/" type="button" class="btn btn-danger">Demo</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div>
+          <div class="container-fluid">
+            <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <h1 class="text-center mt-5">SKILLS</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-          <div class="container mt-5">
-            <div class="row center-block text-center">
-              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
-                <div class="box-skill" >
-                  <i class="icon-brand8">
-                    <h3>GITHUB</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill"  >
-                  <i class="icon-brand7">
-                    <h3>GIT</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill" >
-                  <i class="icon-brand9"><h3>HTML</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill" >
-                  <i class="icon-brand4">
-                    <h3>CSS3</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
-                <div class="box-skill">
-                  <i class="icon-brand2">
-                    <h3>BOOTSTRAP</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill" >
-                  <i class="icon-brand10">
-                    <h3>JS</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill" >
-                  <i class="icon-brand14">
-                    <h3>TRELLO</h3>
-                  </i>
-                </div>
-              </div>
-              <div class= "col-xs-6 col-sm-6 col-md-2" >
-                <div class= "box-skill">
-                  <i class="icon-brand12">
-                    <h3>SLACK</h3>
-                  </i>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-2">
-                <div  class="box-skill"  >
-                  <i class="icon-map">
-                    <h3>APIS</h3>
-                  </i>
-                </div>
-              </div>
-              <div  class="col-xs-6 col-sm-6 col-md-2">
-                <div  class="box-skill">
-                  <h1>JQ</h1>
-                  <h3>JQUERY</h3>
-                </div>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-2">
-                <div class="box-skill">
-                  <i class="icon-user-o">
-                    <h3>UX</h3>
-                  </i>
+                <div class="bg-contacto text-center">
+                  <div class="overlay2">
+                    <div class="">
+                      <p class="text-center tx-40 pt-6">Contáctame</p>
+                    <div class="pt-20 ">
+                      <i class="icon-at color-white"><span class="tx-20 color-red"> felixtasaycorosario@gmail.com</span></i>
+                      <br>
+                      <i class="icon-whatsapp color-white"><span class="tx-20 color-red"> 967 271  321</span></i>
+                    <div class="pt-20">
+                      <a target="_blank" href="http://www.facebook.com/rosariofelixtasayco"><i class="icon-facebook color-red"></i></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/rosario-felix-tasayco"><i class="icon-linkedin color-red"></i></a>
+                      <a target="_blank" href="https://github.com/RosarioFelix"><i class="icon-github color-red"></i></a>
+                    </div>
+                    <div>
+                      <a target="_blank" href="rosariofelix-cv.pdf">Descarga</a>
+                    </div>
+                    <div class="pt-6">
+                      <p class="text-center color-red tx-22">¡Espero nos contáctemos muy pronto!</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-              </div>
-            </div>
-        </section>
-        <section id="portafolio">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <h1 class="text-center">Portafolio</h1>
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="contacto">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <h1 class="text-center" >Contacto</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
+    </div>
+  </section>
+  <footer class="black">
+    <p class="text-center tx-18">&copy Copyright | Rosario Félix</p>
+  </footer>
   <script type="text/javascript" src="js/vendor/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>

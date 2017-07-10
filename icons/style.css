@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?tgy1oi');
-  src:  url('fonts/icomoon.eot?tgy1oi#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?tgy1oi') format('truetype'),
-    url('fonts/icomoon.woff?tgy1oi') format('woff'),
-    url('fonts/icomoon.svg?tgy1oi#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?sm7jyi');
+  src:  url('fonts/icomoon.eot?sm7jyi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sm7jyi') format('truetype'),
+    url('fonts/icomoon.woff?sm7jyi') format('woff'),
+    url('fonts/icomoon.svg?sm7jyi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,13 +18,87 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  font-size: 45px;
+  font-size: 40px;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-brand2:before {
+  content: "\e903";
+  color: #242424;
+}
+.icon-brand3:before {
+  content: "\e904";
+  color: #242424;
+}
+.icon-brand4:before {
+  content: "\e906";
+  color: #242424;
+}
+.icon-brand5:before {
+  content: "\e907";
+}
+.icon-brand7:before {
+  content: "\e908";
+  color: #242424;
+}
+.icon-brand11:before {
+  content: "\e90a";
+  color: #202020;
+}
+.icon-brand12:before {
+  content: "\e911";
+  color: #252323;
+}
+.icon-brand14:before {
+  content: "\e90d";
+  color: #242424;
+}
+.icon-brand16:before {
+  content: "\e90f";
+  color: #1f1f1f;
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-laptop:before {
+  content: "\e001";
+}
+.icon-tablet2:before {
+  content: "\e003";
+}
+.icon-phone:before {
+  content: "\e004";
+}
+.icon-edit:before {
+  content: "\e01c";
+}
+.icon-trophy2:before {
+  content: "\e023";
+}
+.icon-map2:before {
+  content: "\e025";
+}
+.icon-facebook:before {
+  content: "\e05d";
+}
+.icon-linkedin:before {
+  content: "\e062";
+}
+.icon-social-linkedin-circular:before {
+  content: "\e90b";
+}
+.icon-social-facebook-circular:before {
+  content: "\e90c";
+}
+.icon-social-at-circular:before {
+  content: "\e90e";
+}
+.icon-code:before {
+  content: "\f121";
+}
 .icon-graduation-cap:before {
   content: "\f19d";
 }
@@ -33,68 +107,13 @@
 }
 .icon-at:before {
   content: "\f1fa";
+  font-size: 20px!important;
+  font-weight: bold;
 }
-.icon-user-o:before {
-  content: "\f2c0";
-}
-.icon-brand:before {
-  content: "\e900";
-  color: #2319dc;
-}
-.icon-brand2:before {
-  content: "\e901";
-  color: #563d7c;
-}
-.icon-brand3:before {
-  content: "\e902";
-  color: #4cadc0;
-}
-.icon-brand4:before {
-  content: "\e903";
-  color: #1572b6;
-}
-.icon-brand6:before {
-  content: "\e905";
-  color: #3b5998;
-}
-.icon-brand7:before {
-  content: "\e906";
-  color: #f14e32;
-}
-.icon-brand8:before {
-  content: "\e907";
-}
-.icon-brand9:before {
-  content: "\e908";
-  color: #e34f26;
-}
-.icon-brand10:before {
-  content: "\e909";
-  color: #f7df1e;
-}
-.icon-brand11:before {
-  content: "\e90a";
-  color: #0077b5;
-}
-.icon-brand12:before {
-  content: "\e90b";
-  color: #56b68b;
-}
-.icon-brand13:before {
-  content: "\e90c";
-  color: #003168;
-}
-.icon-brand14:before {
-  content: "\e90d";
-  color: #0079bf;
-}
-.icon-brand15:before {
-  content: "\e90e";
-  color: #7c529e;
-}
-.icon-brand16:before {
-  content: "\e90f";
-  color: #25d366;
+.icon-whatsapp:before {
+  content: "\f232";
+  font-weight: bold;
+  font-size: 20px!important;
 }
 .icon-headphones:before {
   content: "\e910";
@@ -102,26 +121,8 @@
 .icon-books:before {
   content: "\e920";
 }
-.icon-map:before {
-  content: "\e94b";
-}
-.icon-display:before {
-  content: "\e956";
-}
-.icon-mobile:before {
-  content: "\e958";
-}
-.icon-tablet:before {
-  content: "\e95a";
-}
-.icon-search:before {
-  content: "\e986";
-}
 .icon-trophy:before {
   content: "\e99e";
-}
-.icon-embed:before {
-  content: "\ea7f";
 }
 .icon-embed2:before {
   content: "\ea80";
@@ -129,12 +130,36 @@
 .icon-github:before {
   content: "\eab0";
 }
-.icon-html-five2:before {
-  content: "\eae5";
+.icon-trello:before {
+  content: "\eab3";
+}
+.icon-html-five:before {
+  content: "\eae4";
 }
 .icon-css3:before {
   content: "\eae6";
 }
 .icon-git:before {
   content: "\eae7";
+}
+@media screen and (min-width:768px){
+  .icon-at:before {
+    font-size: 30px!important;
+  }
+  .icon-whatsapp:before {
+    font-size: 30px!important;
+  }
+  .icon-github:before {
+    font-size: 50px!important;
+  }
+  .icon-facebook::before{
+    font-size: 50px!important;
+  }
+  .icon-linkedin::before{
+    font-size: 50px!important;
+  }
+}
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  font-weight: bold;
+  font-size: 60px;
 }
