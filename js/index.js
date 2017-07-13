@@ -1,5 +1,4 @@
-
-
+/*
 let lastScrollTop = 0;
 
 const enlace=document.getElementsByClassName('enlace');
@@ -16,9 +15,6 @@ window.addEventListener("scroll", function(){
      enlace[1].style.color="#FFF"
      enlace[2].style.color="#FFF"
 
-     setInterval(function(){
-         $("#img-squad").addClass('animated infinite bounce');
-      }, 3000);
 
    };
 
@@ -32,4 +28,21 @@ window.addEventListener("scroll", function(){
 
      }
    lastScrollTop = currentScroll;
-}, false);
+}, false);*/
+
+
+let lastScrollTop = 0;
+window.addEventListener('scroll', function(){
+  var currentScroll = window.pageYOffset || document.body.scrollTop;
+  if (currentScroll > 100) {
+      document.getElementById("navbar-example").classList.remove("header-in");
+  }
+  if (currentScroll > 620) {
+      document.getElementById("navbar-example").classList.add("header-in");
+  }
+  lastScrollTop = currentScroll;
+});
+
+$('.navbar-collapse ul li a').click(function() {
+    $(".navbar-collapse").collapse('hide');
+});

@@ -144,10 +144,10 @@
 }
 @media screen and (min-width:768px){
   .icon-at:before {
-    font-size: 30px!important;
+    font-size: 20px!important;
   }
   .icon-whatsapp:before {
-    font-size: 30px!important;
+    font-size: 20px!important;
   }
   .icon-github:before {
     font-size: 50px!important;
@@ -155,11 +155,10 @@
   .icon-facebook::before{
     font-size: 50px!important;
   }
+  .icon-facebook:hover,.icon-github:hover,.icon-linkedin:hover {
+    color: #630A10;
+  }
   .icon-linkedin::before{
     font-size: 50px!important;
   }
-}
-[class^="icon-"]:hover, [class*=" icon-"]:hover {
-  font-weight: bold;
-  font-size: 60px;
 }
