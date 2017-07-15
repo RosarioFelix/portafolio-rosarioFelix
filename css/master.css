@@ -15,7 +15,7 @@ body{
   border-color:#333333;
 }
 .header-in{
-  background-color:#f7f7f7;
+  background-color:#fff;
 }
 
 @media(min-width:768px) {
@@ -49,8 +49,8 @@ body{
   color: #fff;
 }
 .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle{
-  background-color: #f7f7f7 ;
-  border-color: #f7f7f7;
+  background-color: #fff ;
+  border-color: #fff;
 }
 .navbar-inverse .navbar-toggle .icon-bar{
   background-color: #333333;
@@ -59,7 +59,7 @@ body{
   border-color: #333333;
 }
 .navbar-inverse .navbar-toggle:focus{
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 .navbar-collapse{
   box-shadow: none;
@@ -78,11 +78,11 @@ body{
   padding-right: 0;
 }
 .overlay{
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0,0.71);
   height: 120vh;
 }
 .bg-img{
-  background-image: url(../img/cel.jpg);
+  background-image: url(../img/fondo2.jpg);
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
@@ -177,8 +177,7 @@ h1{
   margin-bottom: 20px;
 }
 .box-skill:hover{
-  color:
-#e24650;
+  color:#fc73b1;
   font-size: 30px;
   font-weight: bold;
 }
@@ -303,7 +302,7 @@ a:hover{
 }
 @media screen and (min-width:1280px) {
   .pt{
-    padding-top: 15%;
+    padding-top: 13%;
   }
 }
 
@@ -387,7 +386,7 @@ footer{
   margin-bottom: 8%;
 }
 .premio-uno{
-  background-color: #f2e2da;
+  background-color:#fff9ed;
   width: 50%;
   padding: 3.5% 0;
 
@@ -412,7 +411,7 @@ hr{
 }
 .rosario{
   background-image: url(../img/ros.jpg);
-  height: 200px;
+  height: 250px;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -426,7 +425,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2e2da;
+
     width:9%;
     border-radius: 50%;
   }
