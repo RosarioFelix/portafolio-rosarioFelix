@@ -107,13 +107,9 @@
 }
 .icon-at:before {
   content: "\f1fa";
-  font-size: 20px!important;
-  font-weight: bold;
 }
 .icon-whatsapp:before {
   content: "\f232";
-  font-weight: bold;
-  font-size: 20px!important;
 }
 .icon-headphones:before {
   content: "\e910";
@@ -150,6 +146,9 @@
     font-size: 20px!important;
   }
   .icon-github:before {
+    font-size: 50px!important;
+  }
+  .icon-github:hover {
     font-size: 50px!important;
   }
   .icon-facebook::before{
