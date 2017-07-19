@@ -128,7 +128,6 @@ h1{
 }
 .tx-20{
   font-size:18px;
-  font-weight: bold;
 }
 .tx-20{
   font-size: 20px;
@@ -141,7 +140,6 @@ h1{
   color: #CB8589;
 }
 .btn-red{
-  margin-top: 8%;
   background-color: #e24650;
   width: 60%;
   color: #FFF;
@@ -300,7 +298,6 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
   width: 60%;
   height: 45px;
   font-size: 15px;
@@ -320,7 +317,7 @@ a:hover{
 }
 
 #portafolio{
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .nav{
