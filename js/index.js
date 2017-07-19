@@ -3,7 +3,7 @@ let lastScrollTop = 0;
 window.addEventListener('scroll', function(){
   var currentScroll = window.pageYOffset || document.body.scrollTop;
   if (currentScroll > 100) {
-      document.getElementById("navbar-example").classList.remove("header-in");
+      $("#navbar-example").removeClass("header-in");
   }
   if (currentScroll > 620) {
       $("#navbar-example").addClass("header-in");
