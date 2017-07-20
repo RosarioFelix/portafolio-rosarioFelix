@@ -8,7 +8,7 @@ window.addEventListener('scroll', function(){
   if (currentScroll > 620) {
       $("#navbar-example").addClass("header-in");
   }
-  if(currentScroll > 1193){
+  if(currentScroll > 1303){
     $(".ico").addClass("animated tada");
   }
   lastScrollTop = currentScroll;
