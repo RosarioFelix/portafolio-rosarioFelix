@@ -18,14 +18,18 @@ body{
 .header-in{
   background-color:#000;
 }
-
+.navbar-inverse .navbar-brand{
+  color: #fff;
+}
 @media(min-width:768px) {
-  .navbar-nav{
-
-    padding-top: 3px;
+  .navbar>.container-fluid .navbar-brand{
+    margin-left: 18px;
   }
   .navbar{
     border-radius: 0;
+  }
+  .navbar-right{
+    margin-right: 18px;
   }
   .navbar-inverse{
     background-color:transparent;
@@ -39,6 +43,7 @@ body{
 .navbar-inverse .navbar-nav>.active>a:hover{
   background-color:#e24650;
   color: #fff;
+  height: 60px;
 }
 .navbar-inverse .navbar-nav>li>a{
   color:#fff;
@@ -128,7 +133,6 @@ h1{
 }
 .tx-20{
   font-size:18px;
-  font-weight: bold;
 }
 .tx-20{
   font-size: 20px;
@@ -141,7 +145,6 @@ h1{
   color: #CB8589;
 }
 .btn-red{
-  margin-top: 8%;
   background-color: #e24650;
   width: 60%;
   color: #FFF;
@@ -175,7 +178,7 @@ h1{
   margin-bottom: 20px;
 }
 .box-skill:hover{
-  color:#fff;
+  color:#e24650;
   font-weight: bold;
 }
 
@@ -300,7 +303,6 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
   width: 60%;
   height: 45px;
   font-size: 15px;
@@ -685,4 +687,7 @@ hr{
   background-color: #4e2279;
   color:#fff;
   border-color: #4e2279;
+}
+.ico{
+  font-style: italic;
 }
