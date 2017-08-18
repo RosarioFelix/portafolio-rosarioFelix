@@ -21,24 +21,7 @@ body{
 .navbar-inverse .navbar-brand{
   color: #fff;
 }
-@media(min-width:768px) {
-  .navbar>.container-fluid .navbar-brand{
-    margin-left: 18px;
-  }
-  .navbar{
-    border-radius: 0;
-  }
-  .navbar-right{
-    margin-right: 18px;
-  }
-  .navbar-inverse{
-    background-color:transparent;
-    border-color: transparent;
-  }
-  .header-in{
-    background-color: #000;
-  }
-}
+
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover{
   background-color:#e24650;
@@ -98,14 +81,6 @@ body{
   background-color:#fff;
   padding-bottom: 5%;
 }
-@media screen and (min-width:768px) {
-  .bg-img{
-  height: 105vh;
-  }
-  .overlay{
-    height: 105vh;
-  }
-}
 .img-circle{
   width: 80%;
   height: 300px;
@@ -116,12 +91,6 @@ body{
 .row-without{
   margin-right: 0;
   margin-left: 0;
-}
-@media screen and (min-width:768px) {
-  .row-without{
-    margin-right: -15px;
-    margin-left: -15px;
-  }
 }
 .pt{
   padding-top: 55%;
@@ -174,9 +143,6 @@ h1{
   color: #000;
   display: inline-block;
   margin-top: 40px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
   margin-bottom: 20px;
 }
 .box-skill:hover{
@@ -272,9 +238,6 @@ h1{
 .cuarenta{
   font-size: 40px;
 }
-/*#skills{
-  background: linear-gradient(to bottom, #ffffff 5%, #E8E3C7 25%, #E8E3C7 50%, #E8E3C7 100% )
-}*/
 .txt-proyecto{
   color: #fff;
   padding:10%;
@@ -282,45 +245,6 @@ h1{
 }
 a:hover{
   color: transparent;
-}
-@media screen and (min-width:768px) {
-  .container-about{
-    width: 1100px;
-  }
-.pt{
-  padding-top: 50%;
-}
-.mt-4{
-  margin-top: 0;
-}
-.box-skill{
-  width: 100%;
-  height: 150px;
-}
-.box-skill>i .icon-:hover{
-  font-size: 60px;
-  font-weight: bold;
-}
-.btn-red{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 45px;
-  font-size: 15px;
-}
-.btn-red2{
-  width: 25%;
-  background-color: #e24650;
-  height: 50px;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bg-contacto{
-  height: 60vh;
-}
 }
 
 #portafolio{
@@ -337,37 +261,6 @@ a:hover{
 .active-nav{
   color: #fff;
   background-color:rgba(0,0,0,0.8) ;
-}
-@media screen and (min-width:768px){
-  .container-proyect {
-    width: 100%;
-  }
-
-  .image{
-    height: 250px;
-  }
-  .overlay2{
-    height: 60vh;
-  }
-  .pt-20{
-    padding-top: 6%;
-  }
-  .tx-40{
-    font-size: 65px;
-  }
-  .pt-6{
-    padding-top: 4%;
-  }
-  .tx-22{
-    font-size: 25px;
-  }
-  .pt-10{
-    padding-top: 5%;
-  }
-  .nav{
-    height: 60px;
-  }
-
 }
 footer{
   display: flex;
@@ -423,11 +316,6 @@ hr{
   background-size: cover;
   width: 100%;
 }
-
-@media screen and (min-width:768px) {
-
-  }
-
 #skills{
   background-color:#f1f1f1;
  padding-bottom:  30px;
@@ -607,6 +495,24 @@ hr{
 .col-xs-7{
   padding-left: 0px;
 }
+@media(min-width:768px) {
+  .navbar>.container-fluid .navbar-brand{
+    margin-left: 18px;
+  }
+  .navbar{
+    border-radius: 0;
+  }
+  .navbar-right{
+    margin-right: 18px;
+  }
+  .navbar-inverse{
+    background-color:transparent;
+    border-color: transparent;
+  }
+  .header-in{
+    background-color: #000;
+  }
+}
 @media screen and (min-width : 768px) {
   .box-contact{
     height: 80px;
@@ -654,10 +560,91 @@ hr{
    width: 23px;
   }
 }
-@media screen and (min-width:1280px) {
-  .pt{
-    padding-top: 13%;
+@media screen and (min-width:768px) {
+  .bg-img{
+  height: 105vh;
   }
+  .overlay{
+    height: 105vh;
+  }
+  .row-without{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .container-about{
+    width: 1100px;
+  }
+.pt{
+  padding-top: 50%;
+}
+.mt-4{
+  margin-top: 0;
+}
+.box-skill{
+  width: 100%;
+  height: 150px;
+}
+.box-skill>i .icon-:hover{
+  font-size: 60px;
+  font-weight: bold;
+}
+.btn-red{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 45px;
+  font-size: 15px;
+}
+.btn-red2{
+  width: 25%;
+  background-color: #e24650;
+  height: 50px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-contacto{
+  height: 90vh;
+}
+}
+@media screen and (min-width:768px){
+  .container-proyect {
+    width: 100%;
+  }
+  .image{
+    height: 250px;
+  }
+  .overlay2{
+    height: 90vh;
+  }
+  .pt-20{
+    padding-top: 6%;
+  }
+  .tx-40{
+    font-size: 65px;
+  }
+  .pt-6{
+    padding-top: 4%;
+  }
+  .tx-22{
+    font-size: 25px;
+  }
+  .pt-10{
+    padding-top: 5%;
+  }
+  .nav{
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1160px){
+  .pt{
+    padding-top:17%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .btn-red{
     width:58%;
   }
@@ -675,13 +662,11 @@ hr{
   .overlay2{
     height: 95vh;
   }
-  .pt{
-    padding-top: 20%;
-  }
   .header-in{
     background-color: #000;
   }
 }
+
 .ico-contacto{
   display: flex;
   justify-content: center;
